@@ -1,0 +1,17 @@
+{
+  "name": "alibi",
+  "owner": {
+    "name": "Alibi",
+    "url": "https://github.com/Alibi-Project-Entropy"
+  },
+  "description": "The Alibi plugin for Claude Code: shared memory of what your agents did across every tool, and why.",
+  "plugins": [
+    {
+      "name": "alibi",
+      "source": "./plugins/alibi",
+      "description": "Shared memory of what your agents did across every tool, and why.",
+      "category": "productivity",
+      "tags": ["memory", "agents", "composio", "mcp"]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "alibi": {
+      "type": "http",
+      "url": "${ALIBI_MCP_URL:-https://mcp.alibi.useentropy.com/mcp}",
+      "headers": {
+        "Authorization": "Bearer ${ALIBI_TOKEN}"
+      }
+    }
+  }
+}

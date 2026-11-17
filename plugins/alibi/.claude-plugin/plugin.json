@@ -1,0 +1,13 @@
+{
+  "name": "alibi",
+  "displayName": "Alibi",
+  "version": "0.2.1",
+  "description": "Shared memory of what your agents did across every tool, and why.",
+  "author": {
+    "name": "Alibi",
+    "url": "https://github.com/Alibi-Project-Entropy"
+  },
+  "homepage": "https://github.com/Alibi-Project-Entropy/alibi-plugin",
+  "repository": "https://github.com/Alibi-Project-Entropy/alibi-plugin",
+  "keywords": ["memory", "agents", "composio", "mcp"]
+}

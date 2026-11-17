@@ -1,0 +1,18 @@
+{
+  "description": "Records each request you make in Alibi as the goal of the work that follows.",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "mcp_tool",
+            "server": "plugin:alibi:alibi",
+            "tool": "alibi_capture_prompt",
+            "input": { "prompt": "${prompt}", "session_id": "${session_id}" },
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
